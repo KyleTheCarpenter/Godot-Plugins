@@ -19,7 +19,7 @@
 **************************************************************************************************
  
 	Instructions :
-Plop the Hub.gd in your project folder
+Plop the Hud.gd in your project folder
 Create Hud.gd as an AutoLoad(singleton) in godot
 
 onready var hud = preload("res://Hud.gd") #or w/e directory its stored in
