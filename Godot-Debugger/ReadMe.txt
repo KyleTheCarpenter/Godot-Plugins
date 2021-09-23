@@ -23,8 +23,8 @@ Plop the Hub.gd in your project folder
 Create Hud.gd as an AutoLoad(singleton) in godot
 
 onready var hud = preload("res://Hud.gd") #or w/e directory its stored in
-hub.debutTitle("Start Debugging") 
-hub.debug(STRING,VAR)#VAR gets wrapped with str() after submitted 
+hud.debutTitle("Start Debugging") 
+hud.debug(STRING,VAR)#VAR gets wrapped with str() after submitted 
 
 
  debugTitle  Creates a big marker with a string..
